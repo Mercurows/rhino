@@ -7,15 +7,15 @@ package org.mozilla.javascript.testutils;
 import static org.junit.Assert.*;
 
 import java.util.stream.IntStream;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.JavaScriptException;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.TopLevel;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextAction;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.JavaScriptException;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.TopLevel;
 
 /**
  * Misc utilities to make test code easier.
@@ -348,8 +348,8 @@ public class Utils {
     }
 
     /**
-     * Execute the provided script and assert an {@link org.mozilla.javascript.JavaScriptException}.
-     * The error message of the {@link org.mozilla.javascript.JavaScriptException} has to start with
+     * Execute the provided script and assert an {@link JavaScriptException}.
+     * The error message of the {@link JavaScriptException} has to start with
      * the provided expectedMessage.
      *
      * @param expectedMessage the expected result
@@ -374,8 +374,8 @@ public class Utils {
     }
 
     /**
-     * Execute the provided script and assert an {@link org.mozilla.javascript.JavaScriptException}.
-     * The error message of the {@link org.mozilla.javascript.JavaScriptException} has to start with
+     * Execute the provided script and assert an {@link JavaScriptException}.
+     * The error message of the {@link JavaScriptException} has to start with
      * the provided expectedMessage. Before the execution the language version is set to {@link
      * Context#VERSION_1_8}.
      *

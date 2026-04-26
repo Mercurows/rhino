@@ -15,9 +15,9 @@
 package org.mozilla.javascript.tools.shell;
 
 import java.util.Map;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
 
 /**
  * Environment, intended to be instantiated at global scope, provides a natural way to access System

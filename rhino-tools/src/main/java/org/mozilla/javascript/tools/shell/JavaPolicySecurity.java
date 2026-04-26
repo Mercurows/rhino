@@ -19,11 +19,11 @@ import java.security.Policy;
 import java.security.PrivilegedAction;
 import java.security.ProtectionDomain;
 import java.util.Enumeration;
-import org.mozilla.javascript.Callable;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.GeneratedClassLoader;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Callable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.GeneratedClassLoader;
+import org.mozilla114.javascript.Script;
+import org.mozilla114.javascript.Scriptable;
 
 public class JavaPolicySecurity extends SecurityProxy {
 

@@ -16,9 +16,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.tools.shell.Global;
 
 /**

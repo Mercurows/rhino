@@ -1,7 +1,7 @@
 package org.mozilla.javascript.benchmarks;
 
 import java.util.concurrent.TimeUnit;
-import org.mozilla.javascript.Context;
+import org.mozilla114.javascript.Context;
 import org.openjdk.jmh.annotations.*;
 
 @OutputTimeUnit(TimeUnit.MICROSECONDS)

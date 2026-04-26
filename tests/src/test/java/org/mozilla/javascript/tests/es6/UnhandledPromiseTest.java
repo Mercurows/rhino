@@ -6,9 +6,9 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.Undefined;
 import org.mozilla.javascript.tools.shell.Global;
 
 public class UnhandledPromiseTest {

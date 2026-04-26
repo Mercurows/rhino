@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mozilla.javascript.tests.Evaluator.eval;
 
 import org.junit.Test;
-import org.mozilla.javascript.NativeObject;
+import org.mozilla114.javascript.NativeObject;
 
 /** Test for the String.prototype.substr() functions. */
 public class StringSubstrTest {

@@ -33,7 +33,7 @@ public class ArchitectureTest {
                     .that()
                     .resideOutsideOfPackage("org.mozilla.javascript.regexp..")
                     .and()
-                    .doNotHaveFullyQualifiedName("org.mozilla.javascript.RegExpProxy")
+                    .doNotHaveFullyQualifiedName("org.javascript.mozilla114.RegExpProxy")
                     .should()
                     .dependOnClassesThat()
                     .resideInAnyPackage("org.mozilla.javascript.regexp..");

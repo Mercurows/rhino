@@ -4,10 +4,10 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
 import org.mozilla.javascript.tools.shell.Global;
 import org.openjdk.jmh.annotations.*;
 

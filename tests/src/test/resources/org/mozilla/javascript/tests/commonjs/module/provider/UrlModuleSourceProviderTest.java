@@ -14,10 +14,10 @@ import java.nio.file.Path;
 import java.nio.file.attribute.FileTime;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.commonjs.module.provider.ModuleSource;
-import org.mozilla.javascript.commonjs.module.provider.ModuleSourceProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlConnectionExpiryCalculator;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.mozilla114.javascript.commonjs.module.provider.ModuleSource;
+import org.mozilla114.javascript.commonjs.module.provider.ModuleSourceProvider;
+import org.mozilla114.javascript.commonjs.module.provider.UrlConnectionExpiryCalculator;
+import org.mozilla114.javascript.commonjs.module.provider.UrlModuleSourceProvider;
 
 public class UrlModuleSourceProviderTest {
 

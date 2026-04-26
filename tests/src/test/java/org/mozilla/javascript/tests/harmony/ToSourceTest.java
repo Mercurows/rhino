@@ -6,10 +6,10 @@ package org.mozilla.javascript.tests.harmony;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ast.AstRoot;
+import org.mozilla114.javascript.CompilerEnvirons;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Parser;
+import org.mozilla114.javascript.ast.AstRoot;
 
 public class ToSourceTest {
 

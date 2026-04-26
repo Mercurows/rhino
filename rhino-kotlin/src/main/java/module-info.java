@@ -1,4 +1,4 @@
-import org.mozilla.javascript.NullabilityDetector;
+import org.mozilla114.javascript.NullabilityDetector;
 import org.mozilla.kotlin.KotlinNullabilityDetector;
 
 module org.mozilla.rhino.kotlin {

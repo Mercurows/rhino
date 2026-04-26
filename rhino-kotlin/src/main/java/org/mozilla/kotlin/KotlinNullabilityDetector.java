@@ -12,7 +12,7 @@ import kotlin.metadata.KmConstructor;
 import kotlin.metadata.KmFunction;
 import kotlin.metadata.KmValueParameter;
 import kotlin.metadata.jvm.KotlinClassMetadata;
-import org.mozilla.javascript.NullabilityDetector;
+import org.mozilla114.javascript.NullabilityDetector;
 
 public class KotlinNullabilityDetector implements NullabilityDetector {
     @Override

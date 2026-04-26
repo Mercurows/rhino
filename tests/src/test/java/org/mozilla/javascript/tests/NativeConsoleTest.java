@@ -13,15 +13,15 @@ import java.util.List;
 import java.util.regex.Pattern;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeConsole;
-import org.mozilla.javascript.NativeConsole.Level;
-import org.mozilla.javascript.ScriptStackElement;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.SecurityUtilities;
-import org.mozilla.javascript.SymbolKey;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.NativeConsole;
+import org.mozilla114.javascript.NativeConsole.Level;
+import org.mozilla114.javascript.ScriptStackElement;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.SecurityUtilities;
+import org.mozilla114.javascript.SymbolKey;
+import org.mozilla114.javascript.Undefined;
 
 /** Test NativeConsole */
 public class NativeConsoleTest {

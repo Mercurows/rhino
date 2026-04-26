@@ -8,7 +8,7 @@ import javax.script.CompiledScript;
 import javax.script.ScriptContext;
 import javax.script.ScriptEngine;
 import javax.script.ScriptException;
-import org.mozilla.javascript.Script;
+import org.mozilla114.javascript.Script;
 
 public class RhinoCompiledScript extends CompiledScript {
 

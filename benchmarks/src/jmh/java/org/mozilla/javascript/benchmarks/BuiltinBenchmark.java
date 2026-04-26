@@ -2,16 +2,16 @@ package org.mozilla.javascript.benchmarks;
 
 import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.TimeUnit;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.IdFunctionObject;
-import org.mozilla.javascript.IdScriptableObject;
-import org.mozilla.javascript.LambdaConstructor;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.annotations.*;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.IdFunctionObject;
+import org.mozilla114.javascript.IdScriptableObject;
+import org.mozilla114.javascript.LambdaConstructor;
+import org.mozilla114.javascript.Script;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Undefined;
+import org.mozilla114.javascript.annotations.JSFunction;
 import org.openjdk.jmh.annotations.*;
 
 @OutputTimeUnit(TimeUnit.MICROSECONDS)

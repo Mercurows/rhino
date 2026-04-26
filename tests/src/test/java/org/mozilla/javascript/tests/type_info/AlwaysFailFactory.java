@@ -5,8 +5,8 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.TypeVariable;
 import java.lang.reflect.WildcardType;
 import java.util.List;
-import org.mozilla.javascript.lc.type.TypeInfo;
-import org.mozilla.javascript.lc.type.TypeInfoFactory;
+import org.mozilla114.javascript.lc.type.TypeInfo;
+import org.mozilla114.javascript.lc.type.TypeInfoFactory;
 
 /**
  * @author ZZZank

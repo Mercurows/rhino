@@ -10,14 +10,14 @@ import java.io.PrintStream;
 import java.text.MessageFormat;
 import java.util.Locale;
 import java.util.ResourceBundle;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.JavaScriptException;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.SecurityUtilities;
-import org.mozilla.javascript.WrappedException;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.ErrorReporter;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.JavaScriptException;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.SecurityUtilities;
+import org.mozilla114.javascript.WrappedException;
 
 /**
  * Error reporter for tools.

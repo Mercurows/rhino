@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Map;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.lc.type.*;
+import org.mozilla114.javascript.lc.type.ParameterizedTypeInfo;
+import org.mozilla114.javascript.lc.type.TypeInfoFactory;
 
 /**
  * @author ZZZank

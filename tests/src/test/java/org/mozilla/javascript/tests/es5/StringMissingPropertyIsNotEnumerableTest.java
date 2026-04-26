@@ -4,8 +4,8 @@ import static org.junit.Assert.assertFalse;
 import static org.mozilla.javascript.tests.Evaluator.eval;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.NativeObject;
 
 /**
  * When calling <b>propertyIsEnumerable</b> on a <b>String</b>, missing properties should return

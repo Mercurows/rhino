@@ -1,16 +1,16 @@
 package org.mozilla.javascript.tests;
 
 import static org.junit.Assert.assertEquals;
-import static org.mozilla.javascript.ArrayLikeAbstractOperations.*;
+import static org.mozilla114.javascript.ArrayLikeAbstractOperations.*;
 
 import java.io.FileReader;
 import java.io.IOException;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Undefined;
 import org.mozilla.javascript.tools.shell.Global;
 
 public class ComparatorTest {

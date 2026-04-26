@@ -3,11 +3,11 @@ package org.mozilla.javascript.tests.es6;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.LambdaFunction;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.SerializableCallable;
-import org.mozilla.javascript.TopLevel;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.LambdaFunction;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.SerializableCallable;
+import org.mozilla114.javascript.TopLevel;
 import org.mozilla.javascript.testutils.Utils;
 
 public class StrictPropagationTest {

@@ -16,13 +16,13 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.IdFunctionObject;
-import org.mozilla.javascript.ImporterTopLevel;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.Wrapper;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.IdFunctionObject;
+import org.mozilla114.javascript.ImporterTopLevel;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.Wrapper;
 
 @RunWith(BlockJUnit4ClassRunner.class)
 public class SealedSharedScopeTest {

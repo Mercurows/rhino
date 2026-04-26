@@ -15,13 +15,13 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerConfigurationException;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ScriptRuntime;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Comment;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node; // Disambiguate from org.mozilla.javascript.Node
+import org.w3c.dom.Node; // Disambiguate from org.javascript.mozilla114.Node
 import org.w3c.dom.NodeList;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;

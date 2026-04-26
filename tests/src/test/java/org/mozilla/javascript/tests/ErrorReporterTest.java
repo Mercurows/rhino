@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ErrorReporter;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.ScriptableObject;
 
 public class ErrorReporterTest {
 

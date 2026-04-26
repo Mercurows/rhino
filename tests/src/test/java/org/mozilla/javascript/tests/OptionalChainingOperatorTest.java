@@ -1,13 +1,13 @@
 package org.mozilla.javascript.tests;
 
 import static org.junit.Assert.assertEquals;
-import static org.mozilla.javascript.Context.FEATURE_E4X;
+import static org.mozilla114.javascript.Context.FEATURE_E4X;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.TopLevel;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.TopLevel;
+import org.mozilla114.javascript.Undefined;
 import org.mozilla.javascript.testutils.Utils;
 
 public class OptionalChainingOperatorTest {

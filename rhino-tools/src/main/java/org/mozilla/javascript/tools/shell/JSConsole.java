@@ -22,7 +22,7 @@ import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JScrollPane;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import org.mozilla.javascript.SecurityUtilities;
+import org.mozilla114.javascript.SecurityUtilities;
 
 @SuppressWarnings("AndroidJdkLibsChecker")
 public class JSConsole extends JFrame implements ActionListener {

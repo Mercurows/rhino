@@ -6,14 +6,14 @@
 
 package org.mozilla.javascript.xmlimpl;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.IdFunctionObject;
-import org.mozilla.javascript.LambdaFunction;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.SerializableCallable;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.IdFunctionObject;
+import org.mozilla114.javascript.LambdaFunction;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.SerializableCallable;
+import org.mozilla114.javascript.Undefined;
 
 class XMLCtor extends IdFunctionObject {
     static final long serialVersionUID = -8708195078359817341L;

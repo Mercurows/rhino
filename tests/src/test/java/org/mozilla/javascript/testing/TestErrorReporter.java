@@ -5,8 +5,8 @@
 package org.mozilla.javascript.testing;
 
 import org.junit.Assert;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.EvaluatorException;
+import org.mozilla114.javascript.ErrorReporter;
+import org.mozilla114.javascript.EvaluatorException;
 
 /**
  * An error reporter for testing that verifies that messages reported to the reporter are expected.

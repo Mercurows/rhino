@@ -13,10 +13,10 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
-import org.mozilla.javascript.lc.type.TypeFormatContext;
-import org.mozilla.javascript.lc.type.TypeInfo;
-import org.mozilla.javascript.lc.type.TypeInfoFactory;
-import org.mozilla.javascript.lc.type.impl.NoTypeInfo;
+import org.mozilla114.javascript.lc.type.TypeFormatContext;
+import org.mozilla114.javascript.lc.type.TypeInfo;
+import org.mozilla114.javascript.lc.type.TypeInfoFactory;
+import org.mozilla114.javascript.lc.type.impl.NoTypeInfo;
 
 /**
  * @author ZZZank

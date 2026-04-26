@@ -1,8 +1,8 @@
 package org.mozilla.javascript.benchmarks;
 
 import java.util.concurrent.TimeUnit;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.dtoa.DecimalFormatter;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.dtoa.DecimalFormatter;
 import org.openjdk.jmh.annotations.Benchmark;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 

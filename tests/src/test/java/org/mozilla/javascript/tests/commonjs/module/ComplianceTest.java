@@ -13,13 +13,13 @@ import junit.framework.AssertionFailedError;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.commonjs.module.Require;
+import org.mozilla114.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
+import org.mozilla114.javascript.commonjs.module.provider.UrlModuleSourceProvider;
 import org.mozilla.javascript.testutils.Utils;
 
 @RunWith(Parameterized.class)

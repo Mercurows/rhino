@@ -1,9 +1,9 @@
 package org.mozilla.javascript.xmlimpl;
 
-import org.mozilla.javascript.LazilyLoadedCtor;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.xml.XMLLib;
-import org.mozilla.javascript.xml.XMLLoader;
+import org.mozilla114.javascript.LazilyLoadedCtor;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.xml.XMLLib;
+import org.mozilla114.javascript.xml.XMLLoader;
 
 public class XMLLoaderImpl implements XMLLoader {
     @Override

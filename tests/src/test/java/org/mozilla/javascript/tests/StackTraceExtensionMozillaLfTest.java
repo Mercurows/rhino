@@ -7,11 +7,11 @@ import java.io.IOException;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.StackStyle;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.StackStyle;
 import org.mozilla.javascript.testutils.Utils;
 import org.mozilla.javascript.tools.shell.Global;
 

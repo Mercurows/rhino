@@ -2,8 +2,8 @@ package org.mozilla.javascript.tests.lc;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Wrapper;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.Wrapper;
 import org.mozilla.javascript.testutils.Utils;
 
 /**

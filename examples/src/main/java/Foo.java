@@ -4,12 +4,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.annotations.JSFunction;
-import org.mozilla.javascript.annotations.JSGetter;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.annotations.JSFunction;
+import org.mozilla114.javascript.annotations.JSGetter;
 
 /**
  * An example host object class.
@@ -46,9 +46,9 @@ import org.mozilla.javascript.annotations.JSGetter;
  * js&gt;
  * </pre>
  *
- * @see org.mozilla.javascript.Context
- * @see org.mozilla.javascript.Scriptable
- * @see org.mozilla.javascript.ScriptableObject
+ * @see Context
+ * @see Scriptable
+ * @see ScriptableObject
  * @author Norris Boyd
  */
 public class Foo extends ScriptableObject {
@@ -118,7 +118,7 @@ public class Foo extends ScriptableObject {
      *     compute a scope using Context.getTopLevelScope().
      * @return computes the string values and types of 'this' and of each of the supplied arguments
      *     and returns them in a string.
-     * @see org.mozilla.javascript.ScriptableObject#getTopLevelScope
+     * @see ScriptableObject#getTopLevelScope
      */
     @JSFunction
     public static Object varargs(Context cx, Scriptable thisObj, Object[] args, Function funObj) {

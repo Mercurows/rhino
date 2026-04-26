@@ -2,10 +2,10 @@ package org.mozilla.javascript.benchmarks;
 
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
-import org.mozilla.javascript.EmbeddedSlotMap;
-import org.mozilla.javascript.HashSlotMap;
-import org.mozilla.javascript.Slot;
-import org.mozilla.javascript.SlotMap;
+import org.mozilla114.javascript.EmbeddedSlotMap;
+import org.mozilla114.javascript.HashSlotMap;
+import org.mozilla114.javascript.Slot;
+import org.mozilla114.javascript.SlotMap;
 import org.openjdk.jmh.annotations.*;
 
 @OutputTimeUnit(TimeUnit.NANOSECONDS)

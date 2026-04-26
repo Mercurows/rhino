@@ -16,11 +16,11 @@ import java.util.List;
 import java.util.function.Function;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.NativeArray;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.tools.shell.Global;
 
 /** From @makusuko (Markus Sunela), imported from PR https://github.com/mozilla/rhino/pull/561 */

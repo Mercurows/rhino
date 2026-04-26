@@ -6,10 +6,10 @@ import java.io.IOException;
 import java.util.stream.Collectors;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ast.AstRoot;
-import org.mozilla.javascript.ast.Comment;
+import org.mozilla114.javascript.CompilerEnvirons;
+import org.mozilla114.javascript.Parser;
+import org.mozilla114.javascript.ast.AstRoot;
+import org.mozilla114.javascript.ast.Comment;
 
 /**
  * Tests if comments between try/catch tokens or blocks makes the parsing go wrong. See {@link

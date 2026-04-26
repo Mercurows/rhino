@@ -4,8 +4,8 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.*;
 import org.mozilla.javascript.testutils.Utils;
+import org.mozilla114.javascript.*;
 
 public class GeneratorStackTraceTest {
 
@@ -125,9 +125,9 @@ public class GeneratorStackTraceTest {
                                     "javaHelper",
                                     0,
                                     (Context ctx,
-                                            Scriptable scope2,
-                                            Scriptable thisObj,
-                                            Object[] args) -> {
+                                     Scriptable scope2,
+                                     Scriptable thisObj,
+                                     Object[] args) -> {
                                         throw new RuntimeException("Java-side failure!");
                                     });
                     ScriptableObject.putProperty(scope, "javaHelper", f);

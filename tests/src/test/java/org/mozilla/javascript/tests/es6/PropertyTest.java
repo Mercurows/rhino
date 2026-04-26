@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 
 import java.lang.reflect.Method;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.ScriptableObject;
 import org.mozilla.javascript.testutils.Utils;
 
 public class PropertyTest {

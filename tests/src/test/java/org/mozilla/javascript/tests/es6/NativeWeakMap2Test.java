@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import org.junit.Test;
-import org.mozilla.javascript.NativeWeakMap;
+import org.mozilla114.javascript.NativeWeakMap;
 
 public class NativeWeakMap2Test {
 

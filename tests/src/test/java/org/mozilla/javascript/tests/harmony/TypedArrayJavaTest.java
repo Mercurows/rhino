@@ -12,19 +12,19 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.typedarrays.NativeArrayBuffer;
-import org.mozilla.javascript.typedarrays.NativeFloat32Array;
-import org.mozilla.javascript.typedarrays.NativeFloat64Array;
-import org.mozilla.javascript.typedarrays.NativeInt16Array;
-import org.mozilla.javascript.typedarrays.NativeInt32Array;
-import org.mozilla.javascript.typedarrays.NativeInt8Array;
-import org.mozilla.javascript.typedarrays.NativeUint16Array;
-import org.mozilla.javascript.typedarrays.NativeUint32Array;
-import org.mozilla.javascript.typedarrays.NativeUint8Array;
-import org.mozilla.javascript.typedarrays.NativeUint8ClampedArray;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.typedarrays.NativeArrayBuffer;
+import org.mozilla114.javascript.typedarrays.NativeFloat32Array;
+import org.mozilla114.javascript.typedarrays.NativeFloat64Array;
+import org.mozilla114.javascript.typedarrays.NativeInt16Array;
+import org.mozilla114.javascript.typedarrays.NativeInt32Array;
+import org.mozilla114.javascript.typedarrays.NativeInt8Array;
+import org.mozilla114.javascript.typedarrays.NativeUint16Array;
+import org.mozilla114.javascript.typedarrays.NativeUint32Array;
+import org.mozilla114.javascript.typedarrays.NativeUint8Array;
+import org.mozilla114.javascript.typedarrays.NativeUint8ClampedArray;
 
 /** Ensure that the "List" contract is valid for a typed array. */
 public class TypedArrayJavaTest {

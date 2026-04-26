@@ -5,9 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.ScriptableObject;
 import org.mozilla.javascript.testutils.Utils;
 
 /**

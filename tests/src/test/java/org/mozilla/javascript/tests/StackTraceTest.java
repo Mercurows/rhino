@@ -8,10 +8,10 @@ package org.mozilla.javascript.tests;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.mozilla.javascript.JavaScriptException;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.StackStyle;
+import org.mozilla114.javascript.JavaScriptException;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.StackStyle;
 import org.mozilla.javascript.testutils.Utils;
 
 /**

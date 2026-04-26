@@ -2,13 +2,13 @@ package org.mozilla.javascript.tools.shell;
 
 import java.util.HashMap;
 import java.util.PriorityQueue;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.LambdaFunction;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.LambdaFunction;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Undefined;
 
 /**
  * This class supports the "setTimeout" and "clearTimeout" methods of semi-standard JavaScript. It

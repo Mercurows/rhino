@@ -14,13 +14,13 @@ import java.io.LineNumberReader;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.List;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.annotations.JSConstructor;
-import org.mozilla.javascript.annotations.JSFunction;
-import org.mozilla.javascript.annotations.JSGetter;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.annotations.JSConstructor;
+import org.mozilla114.javascript.annotations.JSFunction;
+import org.mozilla114.javascript.annotations.JSGetter;
 
 /**
  * Define a simple JavaScript File object.

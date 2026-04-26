@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.StringWriter;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
+import org.mozilla114.javascript.Context;
 import org.mozilla.javascript.tools.shell.Global;
 
 public class HashCollisionTest {

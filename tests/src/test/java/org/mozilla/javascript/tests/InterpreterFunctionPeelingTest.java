@@ -2,10 +2,10 @@ package org.mozilla.javascript.tests;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContinuationPending;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContinuationPending;
+import org.mozilla114.javascript.Script;
+import org.mozilla114.javascript.Scriptable;
 
 // Tests that continuations work across arrow function, bound function, and apply/call invocations.
 public class InterpreterFunctionPeelingTest {

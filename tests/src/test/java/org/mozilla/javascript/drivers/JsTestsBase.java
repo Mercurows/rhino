@@ -10,9 +10,9 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import org.junit.BeforeClass;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.testutils.Utils;
 
 public abstract class JsTestsBase {

@@ -6,9 +6,9 @@
 
 import java.util.ArrayList;
 import java.util.List;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
 
 /**
  * Matrix: An example host object class that implements the Scriptable interface.
@@ -40,8 +40,8 @@ import org.mozilla.javascript.ScriptableObject;
  * 2
  * </pre>
  *
- * @see org.mozilla.javascript.Context
- * @see org.mozilla.javascript.Scriptable
+ * @see Context
+ * @see Scriptable
  * @author Norris Boyd
  */
 public class Matrix implements Scriptable {

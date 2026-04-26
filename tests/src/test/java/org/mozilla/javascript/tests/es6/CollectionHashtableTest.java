@@ -19,9 +19,9 @@ import java.io.ObjectOutputStream;
 import java.util.Iterator;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Hashtable;
-import org.mozilla.javascript.Hashtable.Entry;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Hashtable;
+import org.mozilla114.javascript.Hashtable.Entry;
+import org.mozilla114.javascript.Undefined;
 
 /**
  * These are some tests for the Hashtable implementation that's used by the collection classes in

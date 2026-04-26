@@ -6,9 +6,9 @@
 
 package org.mozilla.javascript.tools.shell;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.SecurityController;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.SecurityController;
 
 public abstract class SecurityProxy extends SecurityController {
     protected abstract void callProcessFileSecure(Context cx, Scriptable scope, String filename);

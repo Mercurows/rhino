@@ -11,8 +11,8 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.commonjs.module.provider.ParsedContentType;
+import org.mozilla114.javascript.Kit;
+import org.mozilla114.javascript.commonjs.module.provider.ParsedContentType;
 
 /**
  * @author Attila Szegedi

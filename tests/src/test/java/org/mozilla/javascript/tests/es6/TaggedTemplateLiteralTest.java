@@ -3,15 +3,15 @@ package org.mozilla.javascript.tests.es6;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ast.*;
+import org.mozilla114.javascript.Parser;
+import org.mozilla114.javascript.ast.*;
 
 /** Tests for ES6+ tagged templates support. */
 public class TaggedTemplateLiteralTest {
 
     /**
-     * Target and {@link org.mozilla.javascript.ast.TemplateLiteral} nodes inside the tagged
-     * template should have {@link org.mozilla.javascript.ast.TaggedTemplateLiteral} node as their
+     * Target and {@link TemplateLiteral} nodes inside the tagged
+     * template should have {@link TaggedTemplateLiteral} node as their
      * parent.
      *
      * <p>See <a href="https://github.com/mozilla/rhino/issues/1238">#1238</a> for details.
@@ -31,7 +31,7 @@ public class TaggedTemplateLiteralTest {
     }
 
     /**
-     * Target and {@link org.mozilla.javascript.ast.TemplateLiteral} nodes inside the tagged
+     * Target and {@link TemplateLiteral} nodes inside the tagged
      * template should resolve the AST root.
      *
      * <p>See <a href="https://github.com/mozilla/rhino/issues/1238">#1238</a> for details.

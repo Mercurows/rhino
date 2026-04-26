@@ -13,10 +13,10 @@ import static org.junit.Assert.fail;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.ScriptableObject;
 
 public class RegexpTest {
 

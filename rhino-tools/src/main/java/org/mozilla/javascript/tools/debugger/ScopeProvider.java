@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 package org.mozilla.javascript.tools.debugger;
 
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Scriptable;
 
 /** Interface to provide a scope object for script evaluation to the debugger. */
 public interface ScopeProvider {

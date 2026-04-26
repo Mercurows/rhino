@@ -6,11 +6,11 @@
 
 package org.mozilla.javascript.xmlimpl;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.xml.XMLObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.Undefined;
+import org.mozilla114.javascript.xml.XMLObject;
 
 class XML extends XMLObjectImpl {
     static final long serialVersionUID = -630969919086449092L;

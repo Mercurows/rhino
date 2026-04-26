@@ -12,11 +12,11 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.concurrent.atomic.AtomicReference;
 import org.junit.Test;
-import org.mozilla.javascript.Callable;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Interpreter;
-import org.mozilla.javascript.NativeContinuation;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Callable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Interpreter;
+import org.mozilla114.javascript.NativeContinuation;
+import org.mozilla114.javascript.ScriptableObject;
 
 public class ContinuationComparisonTest {
 

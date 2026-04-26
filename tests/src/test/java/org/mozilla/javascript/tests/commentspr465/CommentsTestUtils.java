@@ -1,11 +1,11 @@
 package org.mozilla.javascript.tests.commentspr465;
 
 import org.junit.Assert;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ast.AstRoot;
+import org.mozilla114.javascript.CompilerEnvirons;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.Parser;
+import org.mozilla114.javascript.ast.AstRoot;
 import org.mozilla.javascript.testing.TestErrorReporter;
 
 /**

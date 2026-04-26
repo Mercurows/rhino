@@ -7,16 +7,16 @@
 package org.mozilla.javascript.xmlimpl;
 
 import java.io.Serializable;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.Node;
-import org.mozilla.javascript.Ref;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.Wrapper;
-import org.mozilla.javascript.xml.XMLLib;
-import org.mozilla.javascript.xml.XMLObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Kit;
+import org.mozilla114.javascript.Node;
+import org.mozilla114.javascript.Ref;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.Undefined;
+import org.mozilla114.javascript.Wrapper;
+import org.mozilla114.javascript.xml.XMLLib;
+import org.mozilla114.javascript.xml.XMLObject;
 import org.xml.sax.SAXException;
 
 public final class XMLLibImpl extends XMLLib implements Serializable {

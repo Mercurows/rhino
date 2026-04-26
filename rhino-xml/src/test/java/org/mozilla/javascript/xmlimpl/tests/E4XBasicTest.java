@@ -6,11 +6,11 @@
 
 package org.mozilla.javascript.xmlimpl.tests;
 
-import static org.mozilla.javascript.Context.FEATURE_E4X;
+import static org.mozilla114.javascript.Context.FEATURE_E4X;
 
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EvaluatorException;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EvaluatorException;
 import org.mozilla.javascript.testutils.Utils;
 
 /** A basic test for E4X. */

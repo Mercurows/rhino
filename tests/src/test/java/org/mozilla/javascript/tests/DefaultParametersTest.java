@@ -2,8 +2,8 @@ package org.mozilla.javascript.tests;
 
 import org.junit.Ignore;
 import org.junit.Test;
-import org.mozilla.javascript.*;
 import org.mozilla.javascript.testutils.Utils;
+import org.mozilla114.javascript.Undefined;
 
 /*
    Many of these are taken from examples at developer.mozilla.org

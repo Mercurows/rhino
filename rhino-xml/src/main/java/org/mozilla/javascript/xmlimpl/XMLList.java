@@ -7,14 +7,14 @@
 package org.mozilla.javascript.xmlimpl;
 
 import java.util.ArrayList;
-import org.mozilla.javascript.Callable;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.xml.XMLObject;
+import org.mozilla114.javascript.Callable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Undefined;
+import org.mozilla114.javascript.xml.XMLObject;
 
 class XMLList extends XMLObjectImpl implements Function {
     static final long serialVersionUID = -4543618751670781135L;

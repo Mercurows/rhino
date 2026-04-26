@@ -11,9 +11,9 @@ import static org.junit.Assert.assertEquals;
 import static org.mozilla.javascript.tests.Evaluator.eval;
 
 import org.junit.Test;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.NativeObject;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.NativeArray;
+import org.mozilla114.javascript.NativeObject;
+import org.mozilla114.javascript.ScriptableObject;
 
 public class ObjectKeysTest {
 

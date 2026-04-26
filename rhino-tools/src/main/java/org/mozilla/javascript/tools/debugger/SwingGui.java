@@ -110,12 +110,13 @@ import javax.swing.text.Document;
 import javax.swing.text.Segment;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.TreePath;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.SecurityUtilities;
+import org.mozilla114.javascript.Kit;
+import org.mozilla114.javascript.SecurityUtilities;
 import org.mozilla.javascript.tools.debugger.treetable.JTreeTable;
 import org.mozilla.javascript.tools.debugger.treetable.TreeTableModel;
 import org.mozilla.javascript.tools.debugger.treetable.TreeTableModelAdapter;
 import org.mozilla.javascript.tools.shell.ConsoleTextArea;
+import org.mozilla114.javascript.Context;
 
 /** GUI for the Rhino debugger. */
 public class SwingGui extends JFrame implements GuiCallback {
@@ -146,7 +147,7 @@ public class SwingGui extends JFrame implements GuiCallback {
 
     /**
      * The {@link JSplitPane} that separates {@link #desk} from {@link
-     * org.mozilla.javascript.Context}.
+     * Context}.
      */
     private JSplitPane split1;
 

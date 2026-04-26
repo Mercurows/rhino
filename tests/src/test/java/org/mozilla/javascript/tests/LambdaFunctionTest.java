@@ -7,14 +7,14 @@ import java.io.IOException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.LambdaConstructor;
-import org.mozilla.javascript.LambdaFunction;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.SymbolKey;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.LambdaConstructor;
+import org.mozilla114.javascript.LambdaFunction;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.SymbolKey;
 import org.mozilla.javascript.testutils.Utils;
 
 public class LambdaFunctionTest {

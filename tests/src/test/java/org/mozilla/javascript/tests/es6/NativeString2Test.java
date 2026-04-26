@@ -8,7 +8,7 @@
 package org.mozilla.javascript.tests.es6;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
+import org.mozilla114.javascript.Context;
 import org.mozilla.javascript.testutils.Utils;
 
 /** Test for handling const variables. */

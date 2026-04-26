@@ -15,12 +15,12 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.function.Function;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EvaluatorException;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.NativeJavaMethod;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.EvaluatorException;
+import org.mozilla114.javascript.NativeArray;
+import org.mozilla114.javascript.NativeJavaMethod;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.testutils.Utils;
 import org.mozilla.javascript.tools.shell.Global;
 

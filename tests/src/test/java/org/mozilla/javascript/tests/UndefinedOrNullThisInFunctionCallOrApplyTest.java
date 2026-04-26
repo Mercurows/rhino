@@ -12,10 +12,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.NativeArray;
+import org.mozilla114.javascript.Undefined;
 import org.mozilla.javascript.testutils.Utils;
 
 class UndefinedOrNullThisInFunctionCallOrApplyTest {

@@ -5,8 +5,8 @@
 package org.mozilla.javascript.tests.es6;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
 import org.mozilla.javascript.testutils.Utils;
 
 /** Tests for Arguments support. */

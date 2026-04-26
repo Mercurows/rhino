@@ -6,10 +6,10 @@ package org.mozilla.javascript.tools.shell;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeConsole;
-import org.mozilla.javascript.ScriptStackElement;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.NativeConsole;
+import org.mozilla114.javascript.ScriptStackElement;
+import org.mozilla114.javascript.Scriptable;
 
 /** Provide a printer use in console API */
 class ShellConsolePrinter implements NativeConsole.ConsolePrinter {

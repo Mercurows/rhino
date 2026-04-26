@@ -13,9 +13,9 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.TimeZone;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.testutils.Utils;
 
 /** Test for NativeDate. */

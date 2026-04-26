@@ -5,9 +5,9 @@ import java.lang.reflect.Modifier;
 import java.util.Arrays;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.lc.type.TypeInfoFactory;
-import org.mozilla.javascript.lc.type.impl.factory.ConcurrentFactory;
+import org.mozilla114.javascript.*;
+import org.mozilla114.javascript.lc.type.TypeInfoFactory;
+import org.mozilla114.javascript.lc.type.impl.factory.ConcurrentFactory;
 
 /**
  * @author ZZZank

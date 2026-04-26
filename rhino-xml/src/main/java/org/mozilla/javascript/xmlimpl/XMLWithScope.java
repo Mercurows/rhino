@@ -6,9 +6,9 @@
 
 package org.mozilla.javascript.xmlimpl;
 
-import org.mozilla.javascript.NativeWith;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.xml.XMLObject;
+import org.mozilla114.javascript.NativeWith;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.xml.XMLObject;
 
 final class XMLWithScope extends NativeWith {
     private static final long serialVersionUID = -696429282095170887L;

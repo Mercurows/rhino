@@ -5,8 +5,8 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.ast.AstRoot;
+import org.mozilla114.javascript.CompilerEnvirons;
+import org.mozilla114.javascript.ast.AstRoot;
 
 /**
  * Tests for specific parser features targeted at IDE environments, namely the ability to warn about

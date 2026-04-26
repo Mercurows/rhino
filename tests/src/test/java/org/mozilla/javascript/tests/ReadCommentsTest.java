@@ -6,11 +6,11 @@ import java.io.IOException;
 import java.util.stream.Collectors;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.CompilerEnvirons;
-import org.mozilla.javascript.IRFactory;
-import org.mozilla.javascript.Parser;
-import org.mozilla.javascript.ast.AstRoot;
-import org.mozilla.javascript.ast.ScriptNode;
+import org.mozilla114.javascript.CompilerEnvirons;
+import org.mozilla114.javascript.IRFactory;
+import org.mozilla114.javascript.Parser;
+import org.mozilla114.javascript.ast.AstRoot;
+import org.mozilla114.javascript.ast.ScriptNode;
 
 public class ReadCommentsTest {
 

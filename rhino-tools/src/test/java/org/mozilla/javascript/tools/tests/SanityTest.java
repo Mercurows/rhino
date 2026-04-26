@@ -3,7 +3,7 @@ package org.mozilla.javascript.tools.tests;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.Context;
+import org.mozilla114.javascript.Context;
 import org.mozilla.javascript.testutils.Utils;
 import org.mozilla.javascript.tools.shell.Global;
 

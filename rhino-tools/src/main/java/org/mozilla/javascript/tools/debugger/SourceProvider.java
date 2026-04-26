@@ -5,7 +5,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 package org.mozilla.javascript.tools.debugger;
 
-import org.mozilla.javascript.debug.DebuggableScript;
+import org.mozilla114.javascript.debug.DebuggableScript;
 
 /**
  * Interface to provide a source of scripts to the debugger.

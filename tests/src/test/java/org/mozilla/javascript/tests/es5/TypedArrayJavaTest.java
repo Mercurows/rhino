@@ -3,8 +3,8 @@ package org.mozilla.javascript.tests.es5;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
 
 /** Test for TypedArrays. */
 public class TypedArrayJavaTest {

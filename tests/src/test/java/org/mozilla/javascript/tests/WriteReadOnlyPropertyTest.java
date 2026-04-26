@@ -7,10 +7,10 @@ package org.mozilla.javascript.tests;
 import java.lang.reflect.Method;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.ScriptableObject;
 
 /**
  * Test that read-only properties can be... set when needed. This was the standard behavior in Rhino

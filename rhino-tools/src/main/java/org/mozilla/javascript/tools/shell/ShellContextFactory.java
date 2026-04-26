@@ -6,9 +6,9 @@
 
 package org.mozilla.javascript.tools.shell;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.ErrorReporter;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.ErrorReporter;
 
 public class ShellContextFactory extends ContextFactory {
     private boolean strictMode;

@@ -30,28 +30,28 @@ import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextAction;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.ErrorReporter;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.ImporterTopLevel;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.NativeConsole;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.Script;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Synchronizer;
-import org.mozilla.javascript.Undefined;
-import org.mozilla.javascript.Wrapper;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.RequireBuilder;
-import org.mozilla.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
-import org.mozilla.javascript.serialize.ScriptableInputStream;
-import org.mozilla.javascript.serialize.ScriptableOutputStream;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextAction;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.ErrorReporter;
+import org.mozilla114.javascript.Function;
+import org.mozilla114.javascript.ImporterTopLevel;
+import org.mozilla114.javascript.NativeArray;
+import org.mozilla114.javascript.NativeConsole;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.Script;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Synchronizer;
+import org.mozilla114.javascript.Undefined;
+import org.mozilla114.javascript.Wrapper;
+import org.mozilla114.javascript.commonjs.module.Require;
+import org.mozilla114.javascript.commonjs.module.RequireBuilder;
+import org.mozilla114.javascript.commonjs.module.provider.SoftCachingModuleScriptProvider;
+import org.mozilla114.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.mozilla114.javascript.serialize.ScriptableInputStream;
+import org.mozilla114.javascript.serialize.ScriptableOutputStream;
 import org.mozilla.javascript.tools.ToolErrorReporter;
 
 /**
@@ -278,7 +278,7 @@ public class Global extends ImporterTopLevel {
      * @exception InstantiationException if unable to instantiate the named class
      * @exception InvocationTargetException if an exception is thrown during execution of methods of
      *     the named class
-     * @see org.mozilla.javascript.ScriptableObject#defineClass(Scriptable, Class)
+     * @see ScriptableObject#defineClass(Scriptable, Class)
      */
     @SuppressWarnings({"unchecked"})
     public static void defineClass(Context cx, Scriptable thisObj, Object[] args, Function funObj)

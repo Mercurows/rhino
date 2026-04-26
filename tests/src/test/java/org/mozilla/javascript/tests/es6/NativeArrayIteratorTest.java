@@ -14,10 +14,10 @@ import java.io.ObjectOutputStream;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeArrayIterator;
-import org.mozilla.javascript.NativeArrayIterator.ARRAY_ITERATOR_TYPE;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.NativeArrayIterator;
+import org.mozilla114.javascript.NativeArrayIterator.ARRAY_ITERATOR_TYPE;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.tools.shell.Global;
 
 public class NativeArrayIteratorTest {

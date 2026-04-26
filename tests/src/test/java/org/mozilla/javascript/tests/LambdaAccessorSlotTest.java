@@ -1,16 +1,16 @@
 package org.mozilla.javascript.tests;
 
 import static org.junit.Assert.*;
-import static org.mozilla.javascript.ScriptableObject.*;
+import static org.mozilla114.javascript.ScriptableObject.*;
 import static org.mozilla.javascript.tests.LambdaAccessorSlotTest.StatusHolder.self;
 
 import org.junit.Test;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.LambdaConstructor;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.LambdaConstructor;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.Undefined;
 import org.mozilla.javascript.testutils.Utils;
 
 public class LambdaAccessorSlotTest {

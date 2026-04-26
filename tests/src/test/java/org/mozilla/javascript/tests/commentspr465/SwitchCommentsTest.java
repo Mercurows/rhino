@@ -3,13 +3,13 @@ package org.mozilla.javascript.tests.commentspr465;
 import java.util.List;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Node;
-import org.mozilla.javascript.Token;
-import org.mozilla.javascript.ast.AstNode;
-import org.mozilla.javascript.ast.Comment;
-import org.mozilla.javascript.ast.Scope;
-import org.mozilla.javascript.ast.SwitchCase;
-import org.mozilla.javascript.ast.SwitchStatement;
+import org.mozilla114.javascript.Node;
+import org.mozilla114.javascript.Token;
+import org.mozilla114.javascript.ast.AstNode;
+import org.mozilla114.javascript.ast.Comment;
+import org.mozilla114.javascript.ast.Scope;
+import org.mozilla114.javascript.ast.SwitchCase;
+import org.mozilla114.javascript.ast.SwitchStatement;
 
 /**
  * @author ravik @@since 07/08/18 12:36 PM

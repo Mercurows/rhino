@@ -11,14 +11,14 @@ import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Collections;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.RhinoException;
-import org.mozilla.javascript.ScriptStackElement;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.commonjs.module.Require;
-import org.mozilla.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
-import org.mozilla.javascript.commonjs.module.provider.UrlModuleSourceProvider;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.RhinoException;
+import org.mozilla114.javascript.ScriptStackElement;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.commonjs.module.Require;
+import org.mozilla114.javascript.commonjs.module.provider.StrongCachingModuleScriptProvider;
+import org.mozilla114.javascript.commonjs.module.provider.UrlModuleSourceProvider;
 import org.mozilla.javascript.testutils.Utils;
 
 /**

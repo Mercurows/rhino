@@ -11,13 +11,13 @@ import static org.junit.Assert.assertEquals;
 import static org.mozilla.javascript.tests.Evaluator.eval;
 
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.NativeObject;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.annotations.JSConstructor;
-import org.mozilla.javascript.annotations.JSGetter;
-import org.mozilla.javascript.annotations.JSSetter;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.NativeObject;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.annotations.JSConstructor;
+import org.mozilla114.javascript.annotations.JSGetter;
+import org.mozilla114.javascript.annotations.JSSetter;
 
 public class ObjectGetOwnPropertyDescriptorTest {
 

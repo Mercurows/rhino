@@ -1,15 +1,15 @@
 package org.mozilla.classfile.tests;
 
 import static org.junit.Assert.*;
-import static org.mozilla.classfile.ClassFileWriter.ACC_PUBLIC;
-import static org.mozilla.classfile.ClassFileWriter.ACC_STATIC;
+import static org.mozilla114.classfile.ClassFileWriter.ACC_PUBLIC;
+import static org.mozilla114.classfile.ClassFileWriter.ACC_STATIC;
 
 import java.lang.reflect.Method;
 import java.math.BigInteger;
 import org.junit.Test;
-import org.mozilla.classfile.ByteCode;
-import org.mozilla.classfile.ClassFileWriter;
-import org.mozilla.javascript.DefiningClassLoader;
+import org.mozilla114.classfile.ByteCode;
+import org.mozilla114.classfile.ClassFileWriter;
+import org.mozilla114.javascript.DefiningClassLoader;
 
 public class ClassFileWriterTest {
     @Test

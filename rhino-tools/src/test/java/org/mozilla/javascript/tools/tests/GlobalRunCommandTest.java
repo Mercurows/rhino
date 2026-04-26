@@ -23,10 +23,10 @@ import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.WrapFactory;
-import org.mozilla.javascript.WrappedException;
-import org.mozilla.javascript.config.RhinoConfig;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.WrapFactory;
+import org.mozilla114.javascript.WrappedException;
+import org.mozilla114.javascript.config.RhinoConfig;
 import org.mozilla.javascript.testutils.Utils;
 import org.mozilla.javascript.tools.shell.Global;
 

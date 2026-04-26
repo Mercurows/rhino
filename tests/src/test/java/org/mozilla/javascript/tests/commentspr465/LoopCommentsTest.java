@@ -2,15 +2,15 @@ package org.mozilla.javascript.tests.commentspr465;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.Node;
-import org.mozilla.javascript.Token;
-import org.mozilla.javascript.ast.AstNode;
-import org.mozilla.javascript.ast.Comment;
-import org.mozilla.javascript.ast.DoLoop;
-import org.mozilla.javascript.ast.ForLoop;
-import org.mozilla.javascript.ast.FunctionNode;
-import org.mozilla.javascript.ast.WhileLoop;
-import org.mozilla.javascript.ast.WithStatement;
+import org.mozilla114.javascript.Node;
+import org.mozilla114.javascript.Token;
+import org.mozilla114.javascript.ast.AstNode;
+import org.mozilla114.javascript.ast.Comment;
+import org.mozilla114.javascript.ast.DoLoop;
+import org.mozilla114.javascript.ast.ForLoop;
+import org.mozilla114.javascript.ast.FunctionNode;
+import org.mozilla114.javascript.ast.WhileLoop;
+import org.mozilla114.javascript.ast.WithStatement;
 
 /**
  * @author ravik @@since 08/08/18 2:31 PM

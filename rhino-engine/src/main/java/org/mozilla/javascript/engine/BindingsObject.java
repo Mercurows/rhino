@@ -5,9 +5,9 @@
 package org.mozilla.javascript.engine;
 
 import javax.script.Bindings;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.ScriptableObject;
 
 /**
  * This class makes the Bindings object into a Scriptable. That way, we can query and modify the

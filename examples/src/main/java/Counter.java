@@ -4,10 +4,10 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.annotations.JSConstructor;
-import org.mozilla.javascript.annotations.JSFunction;
-import org.mozilla.javascript.annotations.JSGetter;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.annotations.JSConstructor;
+import org.mozilla114.javascript.annotations.JSFunction;
+import org.mozilla114.javascript.annotations.JSGetter;
 
 /**
  * A sample counter class that can be used from JavaScript through the Rhino engine. This class

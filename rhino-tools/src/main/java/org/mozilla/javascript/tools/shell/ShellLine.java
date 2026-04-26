@@ -8,7 +8,7 @@ package org.mozilla.javascript.tools.shell;
 
 import java.io.InputStream;
 import java.nio.charset.Charset;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Scriptable;
 
 /**
  * Provides a specialized input stream for consoles to handle line editing, history and completion.

@@ -7,12 +7,12 @@
 package org.mozilla.javascript.xmlimpl;
 
 import java.util.Objects;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.IdFunctionObject;
-import org.mozilla.javascript.IdScriptableObject;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.IdFunctionObject;
+import org.mozilla114.javascript.IdScriptableObject;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.Undefined;
 
 /** Class QName */
 final class QName extends IdScriptableObject {

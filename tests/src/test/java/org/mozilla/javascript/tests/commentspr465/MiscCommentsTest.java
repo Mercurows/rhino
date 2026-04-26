@@ -2,11 +2,11 @@ package org.mozilla.javascript.tests.commentspr465;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.mozilla.javascript.ast.AstNode;
-import org.mozilla.javascript.ast.CatchClause;
-import org.mozilla.javascript.ast.Comment;
-import org.mozilla.javascript.ast.FunctionNode;
-import org.mozilla.javascript.ast.TryStatement;
+import org.mozilla114.javascript.ast.AstNode;
+import org.mozilla114.javascript.ast.CatchClause;
+import org.mozilla114.javascript.ast.Comment;
+import org.mozilla114.javascript.ast.FunctionNode;
+import org.mozilla114.javascript.ast.TryStatement;
 
 /**
  * @author ravik @@since 08/08/18 3:13 PM

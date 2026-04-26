@@ -3,14 +3,14 @@ package org.mozilla.javascript.tests.type_info;
 import java.lang.reflect.TypeVariable;
 import java.util.List;
 import java.util.Map;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.lc.type.TypeInfo;
-import org.mozilla.javascript.lc.type.TypeInfoFactory;
-import org.mozilla.javascript.lc.type.VariableTypeInfo;
-import org.mozilla.javascript.lc.type.impl.BasicClassTypeInfo;
-import org.mozilla.javascript.lc.type.impl.EnumTypeInfo;
-import org.mozilla.javascript.lc.type.impl.InterfaceTypeInfo;
-import org.mozilla.javascript.lc.type.impl.factory.FactoryBase;
+import org.mozilla114.javascript.ScriptableObject;
+import org.mozilla114.javascript.lc.type.TypeInfo;
+import org.mozilla114.javascript.lc.type.TypeInfoFactory;
+import org.mozilla114.javascript.lc.type.VariableTypeInfo;
+import org.mozilla114.javascript.lc.type.impl.BasicClassTypeInfo;
+import org.mozilla114.javascript.lc.type.impl.EnumTypeInfo;
+import org.mozilla114.javascript.lc.type.impl.InterfaceTypeInfo;
+import org.mozilla114.javascript.lc.type.impl.factory.FactoryBase;
 
 /**
  * {@link TypeInfoFactory} implementation with no cache, and no generic support, as an example usage

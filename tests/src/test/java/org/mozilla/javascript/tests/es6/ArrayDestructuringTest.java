@@ -6,6 +6,8 @@ package org.mozilla.javascript.tests.es6;
 
 import org.junit.Test;
 import org.mozilla.javascript.testutils.Utils;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ScriptableObject;
 
 public class ArrayDestructuringTest {
 
@@ -32,8 +34,8 @@ public class ArrayDestructuringTest {
     public void nestedArrayDestructuringWithDefaults() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "assert = { sameValue(a, b, e) { if (a !== b) throw e; } };\n"
@@ -58,8 +60,8 @@ public class ArrayDestructuringTest {
     public void nestedArrayDestructuringWithDefaultsUsed() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "assert = { sameValue(a, b, e) { if (a !== b) throw e; } };\n"
@@ -80,8 +82,8 @@ public class ArrayDestructuringTest {
     public void nestedObjectDestructuringWithDefaults() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "assert = { sameValue(a, b, e) { if (a !== b) throw e; } };\n"
@@ -101,8 +103,8 @@ public class ArrayDestructuringTest {
     public void multipleNestedArraysWithDefaults() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "assert = { sameValue(a, b, e) { if (a !== b) throw e; } };\n"
@@ -127,8 +129,8 @@ public class ArrayDestructuringTest {
     public void nestedArrayDefaultNotUsedWhenElementExists() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var callCount = 0;\n"
@@ -149,8 +151,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringNonIterableThrows() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var errorThrown = false;\n"
@@ -176,8 +178,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringUsesSymbolIterator() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "function f([x = 1, y = 2] = {x: 100, y: 200,\n"
@@ -200,8 +202,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringIteratorErrorPropagates() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "function Test262Error() {}\n"
@@ -230,8 +232,8 @@ public class ArrayDestructuringTest {
     public void destructuringWithDefaultsInForLoop() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "function a() {}\n"
@@ -255,8 +257,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringIteratorNoCloseWhenExhausted() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var doneCallCount = 0;\n"
@@ -291,8 +293,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringWithHolesAndPrototype() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "Array.prototype[1] = 'y';\n"
@@ -313,8 +315,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringWithRest() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var a, b, rest;\n"
@@ -339,8 +341,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringShadowedSymbolFails() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     // Shadow Symbol with a plain object - should cause iterator access to fail
                     String script =
@@ -375,8 +377,8 @@ public class ArrayDestructuringTest {
     public void arrayDestructuringBasicIterator() {
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var iterable = {\n"
@@ -411,7 +413,7 @@ public class ArrayDestructuringTest {
         Utils.runWithAllModes(
                 cx -> {
                     cx.setLanguageVersion(180);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var f = function([a, b, c]) { return a + b + c; };\n"
@@ -432,7 +434,7 @@ public class ArrayDestructuringTest {
         Utils.runWithAllModes(
                 cx -> {
                     cx.setLanguageVersion(180);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     // In pre-ES6, only index-based access should work
                     // This verifies we don't call Symbol.iterator in version 180
@@ -453,7 +455,7 @@ public class ArrayDestructuringTest {
         Utils.runWithAllModes(
                 cx -> {
                     cx.setLanguageVersion(180);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var f = function([a = 5, b = 10]) { return a + b; };\n"
@@ -475,8 +477,8 @@ public class ArrayDestructuringTest {
         // ES6 version - uses iterator
         Utils.runWithAllModes(
                 cx -> {
-                    cx.setLanguageVersion(org.mozilla.javascript.Context.VERSION_ES6);
-                    org.mozilla.javascript.ScriptableObject scope = cx.initStandardObjects();
+                    cx.setLanguageVersion(Context.VERSION_ES6);
+                    ScriptableObject scope = cx.initStandardObjects();
 
                     String script =
                             "var obj = {\n"

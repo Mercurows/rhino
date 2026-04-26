@@ -6,9 +6,9 @@ package org.mozilla.javascript.tests;
 
 import java.util.Collections;
 import java.util.Map;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.Scriptable;
 
 public class Evaluator {
 

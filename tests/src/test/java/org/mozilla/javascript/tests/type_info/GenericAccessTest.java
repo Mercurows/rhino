@@ -7,8 +7,8 @@ import java.util.stream.Collectors;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
-import org.mozilla.javascript.*;
-import org.mozilla.javascript.lc.type.TypeInfo;
+import org.mozilla114.javascript.*;
+import org.mozilla114.javascript.lc.type.TypeInfo;
 import org.mozilla.javascript.tests.type_info.test_object.*;
 import org.mozilla.javascript.testutils.Utils;
 

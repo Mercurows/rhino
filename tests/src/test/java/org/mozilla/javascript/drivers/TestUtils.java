@@ -12,7 +12,7 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
-import org.mozilla.javascript.ContextFactory;
+import org.mozilla114.javascript.ContextFactory;
 
 public class TestUtils {
     private static ContextFactory.GlobalSetter globalSetter;

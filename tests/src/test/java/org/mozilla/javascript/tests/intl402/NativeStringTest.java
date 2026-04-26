@@ -9,8 +9,8 @@ import static org.junit.Assert.assertEquals;
 
 import java.util.Locale;
 import org.junit.Test;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Scriptable;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.Scriptable;
 import org.mozilla.javascript.testutils.Utils;
 
 /**

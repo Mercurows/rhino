@@ -12,11 +12,11 @@ import java.io.PrintStream;
 import java.net.URI;
 import java.util.List;
 import javax.swing.JFrame;
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.ContextFactory;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.commonjs.module.ModuleScope;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.ContextFactory;
+import org.mozilla114.javascript.Kit;
+import org.mozilla114.javascript.Scriptable;
+import org.mozilla114.javascript.commonjs.module.ModuleScope;
 import org.mozilla.javascript.tools.shell.Global;
 
 /**

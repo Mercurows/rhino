@@ -6,12 +6,12 @@
 
 package org.mozilla.javascript.xmlimpl;
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.EcmaError;
-import org.mozilla.javascript.Kit;
-import org.mozilla.javascript.Ref;
-import org.mozilla.javascript.ScriptRuntime;
-import org.mozilla.javascript.Undefined;
+import org.mozilla114.javascript.Context;
+import org.mozilla114.javascript.EcmaError;
+import org.mozilla114.javascript.Kit;
+import org.mozilla114.javascript.Ref;
+import org.mozilla114.javascript.ScriptRuntime;
+import org.mozilla114.javascript.Undefined;
 
 class XMLName extends Ref {
     static final long serialVersionUID = 3832176310755686977L;
