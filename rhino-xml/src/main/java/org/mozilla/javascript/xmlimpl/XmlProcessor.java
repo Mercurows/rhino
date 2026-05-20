@@ -21,7 +21,7 @@ import org.w3c.dom.Attr;
 import org.w3c.dom.Comment;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node; // Disambiguate from org.javascript.mozilla114.Node
+import org.w3c.dom.Node; // Disambiguate from org.javascript.mozilla.Node
 import org.w3c.dom.NodeList;
 import org.w3c.dom.ProcessingInstruction;
 import org.w3c.dom.Text;

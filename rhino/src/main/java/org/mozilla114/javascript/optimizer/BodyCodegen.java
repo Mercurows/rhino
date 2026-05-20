@@ -2713,7 +2713,7 @@ class BodyCodegen {
             // in favor of the one that we've been saving up for.
             cfw.addInvoke(
                     ByteCode.INVOKEVIRTUAL,
-                    "org.javascript.mozilla114.ScriptRuntime$LookupResult",
+                    "org.javascript.mozilla.ScriptRuntime$LookupResult",
                     "getCallable",
                     "()Lorg/mozilla/javascript/Callable;");
             cfw.addALoad(thisObjLocal);
@@ -3052,13 +3052,13 @@ class BodyCodegen {
         cfw.add(ByteCode.DUP);
         cfw.addInvoke(
                 ByteCode.INVOKEVIRTUAL,
-                "org.javascript.mozilla114.ScriptRuntime$LookupResult",
+                "org.javascript.mozilla.ScriptRuntime$LookupResult",
                 "getCallable",
                 "()Lorg/mozilla/javascript/Callable;");
         cfw.add(ByteCode.SWAP);
         cfw.addInvoke(
                 ByteCode.INVOKEVIRTUAL,
-                "org.javascript.mozilla114.ScriptRuntime$LookupResult",
+                "org.javascript.mozilla.ScriptRuntime$LookupResult",
                 "getThis",
                 "()Lorg/mozilla/javascript/Scriptable;");
     }
@@ -4693,7 +4693,7 @@ class BodyCodegen {
     private void addScriptRuntimeInvoke(String methodName, String methodSignature) {
         cfw.addInvoke(
                 ByteCode.INVOKESTATIC,
-                "org.javascript.mozilla114.ScriptRuntime",
+                "org.javascript.mozilla.ScriptRuntime",
                 methodName,
                 methodSignature);
     }

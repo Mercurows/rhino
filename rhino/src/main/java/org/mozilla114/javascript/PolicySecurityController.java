@@ -159,14 +159,14 @@ public class PolicySecurityController extends SecurityController {
         cfw.add(ByteCode.RETURN);
         cfw.stopMethod(1);
         String callableCallSig =
-                "Lorg/mozilla/javascript/Context;"
-                        + "Lorg/mozilla/javascript/Scriptable;"
-                        + "Lorg/mozilla/javascript/Scriptable;"
+                "Lorg/mozilla114/javascript/Context;"
+                        + "Lorg/mozilla114/javascript/Scriptable;"
+                        + "Lorg/mozilla114/javascript/Scriptable;"
                         + "[Ljava/lang/Object;)Ljava/lang/Object;";
 
         cfw.startMethod(
                 "call",
-                "(Lorg/mozilla/javascript/Callable;" + callableCallSig,
+                "(Lorg/mozilla114/javascript/Callable;" + callableCallSig,
                 (short) (ClassFileWriter.ACC_PUBLIC | ClassFileWriter.ACC_FINAL));
         for (int i = 1; i < 6; ++i) {
             cfw.addALoad(i);

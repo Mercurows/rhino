@@ -34,7 +34,7 @@ public class WrapFactory {
      *   <LI>java.lang.Boolean
      *   <LI>java.lang.String
      *   <LI>java.lang.Number
-     *   <LI>org.javascript.mozilla114.Scriptable objects
+     *   <LI>org.javascript.mozilla.Scriptable objects
      *   <LI>The value returned by Context.getUndefinedValue()
      *   <LI>null
      * </UL>

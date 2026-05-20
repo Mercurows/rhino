@@ -984,7 +984,7 @@ public class NativeJavaObject implements Scriptable, SymbolScriptable, Wrapper, 
     static {
         // Reflection in java is verbose
         Class<?>[] sig2 = new Class[2];
-        Class<?> cl = Kit.classOrNull("org.javascript.mozilla114.JavaAdapter");
+        Class<?> cl = Kit.classOrNull("org.javascript.mozilla.JavaAdapter");
         if (cl != null) {
             try {
                 sig2[0] = ScriptRuntime.ObjectClass;

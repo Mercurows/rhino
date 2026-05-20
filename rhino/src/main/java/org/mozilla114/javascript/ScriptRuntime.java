@@ -163,10 +163,10 @@ public class ScriptRuntime {
             StringClass = Kit.classOrNull("java.lang.String"),
             DateClass = Kit.classOrNull("java.util.Date"),
             BigIntegerClass = Kit.classOrNull("java.math.BigInteger");
-    public static final Class<?> ContextClass = Kit.classOrNull("org.javascript.mozilla114.Context"),
-            ContextFactoryClass = Kit.classOrNull("org.javascript.mozilla114.ContextFactory"),
-            FunctionClass = Kit.classOrNull("org.javascript.mozilla114.Function"),
-            ScriptableObjectClass = Kit.classOrNull("org.javascript.mozilla114.ScriptableObject");
+    public static final Class<?> ContextClass = Kit.classOrNull("org.javascript.mozilla.Context"),
+            ContextFactoryClass = Kit.classOrNull("org.javascript.mozilla.ContextFactory"),
+            FunctionClass = Kit.classOrNull("org.javascript.mozilla.Function"),
+            ScriptableObjectClass = Kit.classOrNull("org.javascript.mozilla.ScriptableObject");
 
     public static final Class<Scriptable> ScriptableClass = Scriptable.class;
 
@@ -245,7 +245,7 @@ public class ScriptRuntime {
         // Depends on the old reflection-based lazy loading mechanism
         // to property initialize the prototype.
         new LazilyLoadedCtor(
-                scope, "Continuation", "org.javascript.mozilla114.NativeContinuation", sealed, true);
+                scope, "Continuation", "org.javascript.mozilla.NativeContinuation", sealed, true);
 
         if (cx.hasFeature(Context.FEATURE_E4X)) {
             if (xmlLoaderImpl != null) {
@@ -306,16 +306,16 @@ public class ScriptRuntime {
 
         // These depend on the legacy initialization behavior of the lazy loading mechanism
         new LazilyLoadedCtor(
-                s, "Packages", "org.javascript.mozilla114.NativeJavaTopPackage", sealed, true);
+                s, "Packages", "org.javascript.mozilla.NativeJavaTopPackage", sealed, true);
         new LazilyLoadedCtor(
-                s, "getClass", "org.javascript.mozilla114.NativeJavaTopPackage", sealed, true);
-        new LazilyLoadedCtor(s, "JavaAdapter", "org.javascript.mozilla114.JavaAdapter", sealed, true);
+                s, "getClass", "org.javascript.mozilla.NativeJavaTopPackage", sealed, true);
+        new LazilyLoadedCtor(s, "JavaAdapter", "org.javascript.mozilla.JavaAdapter", sealed, true);
         new LazilyLoadedCtor(
-                s, "JavaImporter", "org.javascript.mozilla114.ImporterTopLevel", sealed, true);
+                s, "JavaImporter", "org.javascript.mozilla.ImporterTopLevel", sealed, true);
 
         for (String packageName : getTopPackageNames()) {
             new LazilyLoadedCtor(
-                    s, packageName, "org.javascript.mozilla114.NativeJavaTopPackage", sealed, true);
+                    s, packageName, "org.javascript.mozilla.NativeJavaTopPackage", sealed, true);
         }
 
         return s;

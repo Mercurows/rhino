@@ -65,7 +65,7 @@ public interface Scriptable {
      *   <LI>java.lang.Boolean objects
      *   <LI>java.lang.String objects
      *   <LI>java.lang.Number objects
-     *   <LI>org.javascript.mozilla114.Scriptable objects
+     *   <LI>org.javascript.mozilla.Scriptable objects
      *   <LI>null
      *   <LI>The value returned by Context.getUndefinedValue()
      *   <LI>NOT_FOUND
@@ -146,7 +146,7 @@ public interface Scriptable {
      *   <LI>java.lang.Boolean objects
      *   <LI>java.lang.String objects
      *   <LI>java.lang.Number objects
-     *   <LI>org.javascript.mozilla114.Scriptable objects
+     *   <LI>org.javascript.mozilla.Scriptable objects
      *   <LI>null
      *   <LI>The value returned by Context.getUndefinedValue()
      * </UL>

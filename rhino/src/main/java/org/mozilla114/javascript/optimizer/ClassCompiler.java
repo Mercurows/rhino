@@ -214,7 +214,7 @@ public class ClassCompiler {
         cfw.stopMethod(0);
 
         cfw.startMethod("main", "([Ljava/lang/String;)V", (short) (ACC_STATIC | ACC_PUBLIC));
-        cfw.add(ByteCode.NEW, "org.javascript.mozilla114.JSScript");
+        cfw.add(ByteCode.NEW, "org.javascript.mozilla.JSScript");
         cfw.add(ByteCode.DUP);
         cfw.add(
                 ByteCode.GETSTATIC,
@@ -266,7 +266,7 @@ public class ClassCompiler {
                 "(Lorg/mozilla/javascript/JSDescriptor;)Lorg/mozilla/javascript/JSDescriptor;",
                 ACC_STATIC);
 
-        cfw.add(ByteCode.NEW, "org.javascript.mozilla114.JSDescriptor");
+        cfw.add(ByteCode.NEW, "org.javascript.mozilla.JSDescriptor");
         cfw.add(ByteCode.DUP);
         buildCode(cfw, builder.code, classes);
         buildCode(cfw, builder.constructor, classes);
@@ -333,7 +333,7 @@ public class ClassCompiler {
                                 JSDescriptor.class.getConstructors()[0].getParameterTypes())
                         .toMethodDescriptorString();
         cfw.addInvoke(
-                ByteCode.INVOKESPECIAL, "org.javascript.mozilla114.JSDescriptor", "<init>", type);
+                ByteCode.INVOKESPECIAL, "org.javascript.mozilla.JSDescriptor", "<init>", type);
         cfw.addAStore(1);
         cfw.addALoad(1);
         cfw.add(ByteCode.DUP);
@@ -358,12 +358,12 @@ public class ClassCompiler {
         }
         cfw.addInvoke(
                 ByteCode.INVOKESTATIC,
-                "org.optimizer.javascript.mozilla114.OptRuntime",
+                "org.optimizer.javascript.mozilla.OptRuntime",
                 "listOf",
                 "([Ljava/lang/Object;)Ljava/util/List;");
         cfw.add(
                 ByteCode.PUTFIELD,
-                "org.javascript.mozilla114.JSDescriptor",
+                "org.javascript.mozilla.JSDescriptor",
                 "nestedFunctions",
                 "Ljava/util/List;");
 

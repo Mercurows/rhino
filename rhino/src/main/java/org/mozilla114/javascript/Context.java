@@ -618,7 +618,7 @@ public class Context implements Closeable {
         String DBG = "org.mozilla.javascript.tools.debugger.Main";
         if (DBG.equals(listener.getClass().getName())) {
             Class<?> cl = listener.getClass();
-            Class<?> factoryClass = Kit.classOrNull("org.javascript.mozilla114.ContextFactory");
+            Class<?> factoryClass = Kit.classOrNull("org.javascript.mozilla.ContextFactory");
             Class<?>[] sig = {factoryClass};
             Object[] args = {ContextFactory.getGlobal()};
             try {
@@ -2680,9 +2680,9 @@ public class Context implements Closeable {
     private static Class<?> codegenClass =
             ScriptRuntime.androidApi > 0
                     ? null
-                    : Kit.classOrNull("org.optimizer.javascript.mozilla114.Codegen");
+                    : Kit.classOrNull("org.optimizer.javascript.mozilla.Codegen");
     private static Class<?> interpreterClass =
-            Kit.classOrNull("org.javascript.mozilla114.Interpreter");
+            Kit.classOrNull("org.javascript.mozilla.Interpreter");
 
     private Evaluator createCompiler() {
         Evaluator result = null;

@@ -331,8 +331,8 @@ public class Codegen implements Evaluator {
                 new ClassFileWriter(
                         mainClass + "ojsc" + Integer.toString(index),
                         isFunction
-                                ? "org.optimizer.javascript.mozilla114.OptJSFunctionCode"
-                                : "org.optimizer.javascript.mozilla114.OptJSScriptCode",
+                                ? "org.optimizer.javascript.mozilla.OptJSFunctionCode"
+                                : "org.optimizer.javascript.mozilla.OptJSScriptCode",
                         sourceFile);
         generateOptJSCodeCtor(cfw, isFunction);
         generateOptJSCodeExecute(cfw, mainClass, methodName, methodType);
@@ -346,8 +346,8 @@ public class Codegen implements Evaluator {
         cfw.addInvoke(
                 ByteCode.INVOKESPECIAL,
                 isFunction
-                        ? "org.optimizer.javascript.mozilla114.OptJSFunctionCode"
-                        : "org.optimizer.javascript.mozilla114.OptJSScriptCode",
+                        ? "org.optimizer.javascript.mozilla.OptJSFunctionCode"
+                        : "org.optimizer.javascript.mozilla.OptJSScriptCode",
                 "<init>",
                 "()V");
         cfw.add(ByteCode.RETURN);
@@ -415,10 +415,10 @@ public class Codegen implements Evaluator {
             bodygen.scriptOrFnIndex = i;
             if (n instanceof FunctionNode) {
                 bodygen.scriptOrFnType = "Lorg/mozilla/javascript/JSFunction;";
-                bodygen.scriptOrFnClass = "org.javascript.mozilla114.JSFunction";
+                bodygen.scriptOrFnClass = "org.javascript.mozilla.JSFunction";
             } else {
                 bodygen.scriptOrFnType = "Lorg/mozilla/javascript/JSScript;";
-                bodygen.scriptOrFnClass = "org.javascript.mozilla114.JSScript";
+                bodygen.scriptOrFnClass = "org.javascript.mozilla.JSScript";
             }
 
             bodygen.generateBodyCode();
@@ -946,7 +946,7 @@ public class Codegen implements Evaluator {
         mainMethodClass = className;
     }
 
-    static final String DEFAULT_MAIN_METHOD_CLASS = "org.optimizer.javascript.mozilla114.OptRuntime";
+    static final String DEFAULT_MAIN_METHOD_CLASS = "org.optimizer.javascript.mozilla.OptRuntime";
 
     private static final String SUPER_CLASS_NAME = "java.lang.Object";
 
@@ -966,7 +966,7 @@ public class Codegen implements Evaluator {
 
     static final String CODE_CONSTRUCTOR_SIGNATURE = "(Lorg/mozilla/javascript/Context;I)V";
 
-    static final String JSFUNCTION_CLASS_NAME = "org.javascript.mozilla114.JSFunction";
+    static final String JSFUNCTION_CLASS_NAME = "org.javascript.mozilla.JSFunction";
     static final String JSFUNCTION_CLASS_SIGNATURE = "org/mozilla114/javascript/JSFunction";
     static final String JSFUNCTION_CONSTRUCTOR_SIGNATURE =
             "("

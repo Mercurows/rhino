@@ -37,7 +37,7 @@ public class Bootstrapper {
     public static final ClassFileWriter.MHandle BOOTSTRAP_HANDLE =
             new ClassFileWriter.MHandle(
                     ByteCode.MH_INVOKESTATIC,
-                    "org.optimizer.javascript.mozilla114.Bootstrapper",
+                    "org.optimizer.javascript.mozilla.Bootstrapper",
                     "bootstrap",
                     "(Ljava/lang/invoke/MethodHandles$Lookup;"
                             + "Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;");

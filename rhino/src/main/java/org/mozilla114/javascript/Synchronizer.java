@@ -12,7 +12,7 @@ package org.mozilla114.javascript;
  * This class provides support for implementing Java-style synchronized methods in Javascript.
  *
  * <p>Synchronized functions are created from ordinary Javascript functions by the {@code
- * Synchronizer} constructor, e.g. {@code new Packages.org.javascript.mozilla114.Synchronizer(fun) }.
+ * Synchronizer} constructor, e.g. {@code new Packages.org.javascript.mozilla.Synchronizer(fun) }.
  * The resulting object is a function that establishes an exclusive lock on the {@code this } object
  * of its invocation.
  *

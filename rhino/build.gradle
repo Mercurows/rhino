@@ -25,7 +25,7 @@ publishing {
 
                 root.appendNode('name', 'rhino')
                 root.appendNode('description', "Rhino JavaScript runtime jar, excludes XML, tools, and ScriptEngine wrapper")
-                root.appendNode("url", "https://mozilla114.github.io/rhino/")
+                root.appendNode("url", "https://mozilla.github.io/rhino/")
 
                 def p = root.appendNode("parent")
                 p.appendNode("groupId", "org.sonatype.oss")
@@ -33,17 +33,17 @@ publishing {
                 p.appendNode("version", "7")
 
                 def l = root.appendNode("licenses").appendNode("license")
-                l.appendNode("name", "mozilla114 Public License, Version 2.0")
-                l.appendNode("url", "http://www.mozilla114.org/MPL/2.0/index.txt")
+                l.appendNode("name", "mozilla Public License, Version 2.0")
+                l.appendNode("url", "http://www.mozilla.org/MPL/2.0/index.txt")
 
                 def scm = root.appendNode("scm")
-                scm.appendNode("connection", "scm:git:git@github.com:mozilla114/rhino.git")
-                scm.appendNode("developerConnection", "scm:git:git@github.com:mozilla114/rhino.git")
-                scm.appendNode("url", "git@github.com:mozilla114/rhino.git")
+                scm.appendNode("connection", "scm:git:git@github.com:mozilla/rhino.git")
+                scm.appendNode("developerConnection", "scm:git:git@github.com:mozilla/rhino.git")
+                scm.appendNode("url", "git@github.com:mozilla/rhino.git")
 
                 def o = root.appendNode("organization")
-                o.appendNode("name", "The mozilla114 Foundation")
-                o.appendNode("url", "http://www.mozilla114.org")
+                o.appendNode("name", "The mozilla Foundation")
+                o.appendNode("url", "http://www.mozilla.org")
 
                 def d = root.appendNode("developers")
                 def dd = d.appendNode("developer")

@@ -292,7 +292,7 @@ public abstract class RhinoException extends RuntimeException {
                     count++;
                 }
 
-            } else if ("org.javascript.mozilla114.Interpreter".equals(e.getClassName())
+            } else if ("org.javascript.mozilla.Interpreter".equals(e.getClassName())
                     && "interpretLoop".equals(e.getMethodName())
                     && interpreterStack != null
                     && interpreterStack.length > interpreterStackIndex) {
